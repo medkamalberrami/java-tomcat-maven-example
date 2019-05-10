@@ -4,7 +4,7 @@ pipeline {
         stage ('Initialize'){
             steps{
 
-                echo : 'Initialize the code file'
+                echo  'Initialize the code file'
 
             }
         }
@@ -12,7 +12,7 @@ pipeline {
         stage ('Build'){
             steps{
 
-                echo : 'Hello world'
+                echo  'Hello world'
 
             }
         }
@@ -20,7 +20,7 @@ pipeline {
          stage ('Deploy'){
             steps{
 
-                echo : 'Deploy on artifact'
+                echo  'Deploy on artifact'
 
             }
         }
